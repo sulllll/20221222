@@ -25,4 +25,3 @@ jobs:
       - name: Run Colab Notebook
         run: |
           jupyter nbconvert --to notebook --execute --inplace example_notebook.ipynb
- 
