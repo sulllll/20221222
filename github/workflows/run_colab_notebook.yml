@@ -1,8 +1,8 @@
 name: Run Colab Notebook
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'  # 1분마다 실행
+schedule:
+  cron: '*/1 * * * *' # 1분마다 실행
   workflow_dispatch:  # 수동 실행을 위한 트리거
 
 jobs:
